@@ -22,7 +22,9 @@ An offline Python auditor for CycloneDX and SPDX software bills of materials. It
 
 ## Open source
 
-I'm interested in contributing to security and developer-tooling projects through focused bug fixes, tests, documentation, and code review. I aim to make contributions that are useful, reproducible, and easy for maintainers to review. Current contribution areas include OpenSSF Scorecard, Anchore Syft, and OWASP Dependency-Check.
+I'm interested in contributing to security and developer-tooling projects through focused bug fixes, tests, documentation, and code review. I aim to make contributions that are useful, reproducible, and easy for maintainers to review.
+
+- [Safety CLI #931](https://github.com/pyupio/safety/pull/931) — focused pytest-harness fix for distributions with incomplete package metadata.
 
 ---
 
