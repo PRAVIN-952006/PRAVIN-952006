@@ -16,6 +16,9 @@ I use this profile to document projects, experiments, and practical learning as 
 ### [SupplyGuard](https://github.com/PRAVIN-952006/supplyguard)
 An offline Python auditor for CycloneDX and SPDX software bills of materials. It checks component identity, package URLs, versions, duplicate references, and configurable metadata policies without network access.
 
+### [AgentGate](https://github.com/PRAVIN-952006/agentgate)
+An offline MCP configuration and tool-manifest drift gate for coding-agent repositories. It creates a reviewed approval baseline and detects server, argument, environment-key, tool-description, and schema changes, with JSON and SARIF output.
+
 ## Working with and learning
 
 `Python` · `C` · `Java` · `JavaScript` · `Git` · `GitHub` · `SBOM` · `Secure software`
