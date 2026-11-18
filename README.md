@@ -13,17 +13,20 @@ I use this profile to document projects, experiments, and practical learning as 
 
 ## Selected work
 
+### [Workflow Guard](./security-tools/workflow-guard)
+A dependency-free Python checker for high-signal GitHub Actions risks: mutable action references, broad token permissions, `pull_request_target`, and shell interpolation of untrusted pull-request data. It is deliberately advisory and complements broader tools such as OpenSSF Scorecard and CodeQL.
+
 ### [MLab — Machine Learning Laboratory](https://github.com/PRAVIN-952006/MLab)
-Academic experiments covering data preprocessing, classification, regression, ensemble methods, and perceptron models. The repository contains notebooks and experiment reports.
+Academic experiments covering data preprocessing, classification, regression, ensemble methods, and perceptron models.
 
 ## Working with and learning
 
 `Python` · `C` · `Java` · `JavaScript` · `Git` · `GitHub`
 
-## Open source
+## Open-source direction
 
-I'm interested in contributing to security and developer-tooling projects through focused bug fixes, tests, documentation, and code review. I aim to make contributions that are useful, reproducible, and easy for maintainers to review.
+I am building toward contributions in application security, software supply-chain security, and secure developer tooling. My standard is reproducible work: focused changes, meaningful tests, explicit limitations, and no unsupported security claims.
 
 ---
 
-*This profile is a work in progress. Project and contribution claims will be added as the work is completed and publicly available.*
+*This profile records completed work only; claims will be added as projects and contributions become publicly verifiable.*
