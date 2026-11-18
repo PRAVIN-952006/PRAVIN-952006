@@ -13,17 +13,17 @@ I use this profile to document projects, experiments, and practical learning as 
 
 ## Selected work
 
-### [MLab — Machine Learning Laboratory](https://github.com/PRAVIN-952006/MLab)
-Academic experiments covering data preprocessing, classification, regression, ensemble methods, and perceptron models. The repository contains notebooks and experiment reports.
+### [SupplyGuard](https://github.com/PRAVIN-952006/supplyguard)
+An offline Python auditor for CycloneDX and SPDX software bills of materials. It checks component identity, package URLs, versions, duplicate references, and configurable metadata policies without network access.
 
 ## Working with and learning
 
-`Python` · `C` · `Java` · `JavaScript` · `Git` · `GitHub`
+`Python` · `C` · `Java` · `JavaScript` · `Git` · `GitHub` · `SBOM` · `Secure software`
 
 ## Open source
 
-I'm interested in contributing to security and developer-tooling projects through focused bug fixes, tests, documentation, and code review. I aim to make contributions that are useful, reproducible, and easy for maintainers to review.
+I'm interested in contributing to security and developer-tooling projects through focused bug fixes, tests, documentation, and code review. I aim to make contributions that are useful, reproducible, and easy for maintainers to review. Current contribution areas include OpenSSF Scorecard, Anchore Syft, and OWASP Dependency-Check.
 
 ---
 
-*This profile is a work in progress. Project and contribution claims will be added as the work is completed and publicly available.*
+*I am building this profile through verifiable software, careful documentation, and genuine open-source participation.*
