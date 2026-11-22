@@ -1,34 +1,26 @@
-# Hi, I'm Pravin 👋
+# Pravin G
 
-I'm an Integrated M.Tech Computer Science student at **SSN College of Engineering, India**, interested in **cybersecurity engineering, secure software, and open-source development**.
+**Security Researcher & Systems Engineer** · Integrated M.Tech CS @ **SSN College of Engineering, India**
 
-I use this profile to document projects, experiments, and practical learning as I build stronger software engineering and security skills.
+I focus on **protocol & cryptographic verification**, **applied cryptography**, **parser & boundary security**, and **software supply-chain security**—building reproducible, fail-closed security tooling and formal models.
 
-## Current interests
+### Research & Engineering Focus
+- **Formal Verification & Symbolic Security:** Dolev-Yao protocol modeling (Tamarin Prover), SMT equivalence checking (Z3), and mechanized soundness proofs (Lean 4)
+- **Applied Cryptography & Wire-Format Security:** X.509/PKI, MLS, Sigstore/in-toto, OAuth/DPoP, WebAuthn/COSE, and differential conformance testing
+- **AI Agent & Supply-Chain Security:** Offline policy gates, SBOM auditing, GitHub Actions permission analysis, and transcript/MCP trace sanitization
 
-- Application security and secure coding
-- Security automation and developer tooling
-- Software supply-chain security
-- Systems, privacy, and reproducible security research
+### Selected Open-Source Projects
 
-## Selected work
+| Project | Stack | Focus |
+| :--- | :--- | :--- |
+| **[wirelint](https://github.com/PRAVIN-952006/wirelint)** | Rust (zero-dependency) · SARIF | Fail-closed structural auditor for ASN.1 DER, RFC 7515 JWS/JWT (`crit` & duplicate-key guards), and RFC 8949/8152 COSE CBOR |
+| **[SessionVeil](https://github.com/PRAVIN-952006/sessionveil)** | TypeScript · Vite · CLI | Structure-preserving secret sanitizer & residual-leak verifier for AI coding-agent transcripts (`.jsonl`) and MCP/OTel traces |
+| **[AgentGate](https://github.com/PRAVIN-952006/agentgate)** | Python · SARIF · CI | Offline MCP server & tool-manifest approval baseline and drift gate for CI pipelines |
+| **[SupplyGuard](https://github.com/PRAVIN-952006/supplyguard)** | Python · CycloneDX · SPDX | Offline SBOM quality, package-URL identity, and supply-chain policy auditor |
+| **[ActionScope](https://github.com/PRAVIN-952006/actionscope)** | Python · GitHub Actions | Explainable `GITHUB_TOKEN` permission, inheritance, and third-party action surface reporter |
 
-### [SupplyGuard](https://github.com/PRAVIN-952006/supplyguard)
-An offline Python auditor for CycloneDX and SPDX software bills of materials. It checks component identity, package URLs, versions, duplicate references, and configurable metadata policies without network access.
+### Technical Stack
+`Rust` · `C++20` · `Go` · `TypeScript` · `Python` · `Java` · `Tamarin Prover` · `Z3 SMT` · `Lean 4` · `OpenSSL` · `SARIF`
 
-### [AgentGate](https://github.com/PRAVIN-952006/agentgate)
-An offline MCP configuration and tool-manifest drift gate for coding-agent repositories. It creates a reviewed approval baseline and detects server, argument, environment-key, tool-description, and schema changes, with JSON and SARIF output.
-
-## Working with and learning
-
-`Python` · `C` · `Java` · `JavaScript` · `Git` · `GitHub` · `SBOM` · `Secure software`
-
-## Open source
-
-I'm interested in contributing to security and developer-tooling projects through focused bug fixes, tests, documentation, and code review. I aim to make contributions that are useful, reproducible, and easy for maintainers to review.
-
-- [Safety CLI #931](https://github.com/pyupio/safety/pull/931) — focused pytest-harness fix for distributions with incomplete package metadata.
-
----
-
-*I am building this profile through verifiable software, careful documentation, and genuine open-source participation.*
+### Open-Source Contributions
+- [`pyupio/safety#931`](https://github.com/pyupio/safety/pull/931) — pytest-harness fix for distributions with incomplete package metadata.
